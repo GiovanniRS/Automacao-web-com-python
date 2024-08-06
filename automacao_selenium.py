@@ -22,5 +22,12 @@ input_password = chrome.find_element(By.XPATH, '//input[@id="password"]')
 #Inserindo o valor no campo de password
 input_password.send_keys('secret_sauce')
 
+#Buscando o elemento botao de login utilizando o xpath
+btn_login = chrome.find_element(By.XPATH, '//input[@id="login-button"]')
+#Clicando no elemento
+btn_login.click()
+sleep(1)
+
+
 
 sleep(10)
