@@ -50,5 +50,9 @@ input_zip_code.send_keys('13458500')
 
 btn_continue = chrome.find_element(By.XPATH, '//input[@id="continue"]')
 btn_continue.click()
+sleep(1)
+
+btn_finish = chrome.find_element(By.XPATH, '//button[@id="finish"]')
+btn_finish.click()
 
 sleep(10)
