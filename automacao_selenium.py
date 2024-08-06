@@ -16,3 +16,11 @@ sleep(1)
 input_username = chrome.find_element(By.XPATH, '//input[@id="user-name"]')
 #Inserindo o valor no campo de username
 input_username.send_keys('standard_user')
+
+#Buscando o elemento de input de password utilizando o xpath
+input_password = chrome.find_element(By.XPATH, '//input[@id="password"]')
+#Inserindo o valor no campo de password
+input_password.send_keys('secret_sauce')
+
+
+sleep(10)
