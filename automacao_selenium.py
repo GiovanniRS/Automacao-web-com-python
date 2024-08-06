@@ -39,4 +39,16 @@ btn_checkout = chrome.find_element(By.XPATH, '//button[@id="checkout"]')
 btn_checkout.click()
 sleep(1)
 
+input_name = chrome.find_element(By.XPATH, '//input[@id="first-name"]')
+input_name.send_keys('Giovanni')
+
+input_lastname = chrome.find_element(By.XPATH, '//input[@id="last-name"]')
+input_lastname.send_keys('Rodrigues')
+
+input_zip_code = chrome.find_element(By.XPATH, '//input[@id="postal-code"]')
+input_zip_code.send_keys('13458500')
+
+btn_continue = chrome.find_element(By.XPATH, '//input[@id="continue"]')
+btn_continue.click()
+
 sleep(10)
