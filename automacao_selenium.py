@@ -35,4 +35,8 @@ btn_carrinho = chrome.find_element(By.XPATH, '//a[@class="shopping_cart_link"]')
 btn_carrinho.click()
 sleep(1)
 
+btn_checkout = chrome.find_element(By.XPATH, '//button[@id="checkout"]')
+btn_checkout.click()
+sleep(1)
+
 sleep(10)
