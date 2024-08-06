@@ -3,3 +3,6 @@ from selenium import webdriver
 
 # Abrindo o navegador para começar a automacação, utilizando o webdriver
 chrome = webdriver.Chrome()
+
+# Abrindo uma url
+chrome.get('https://www.saucedemo.com/')
