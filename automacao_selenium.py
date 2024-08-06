@@ -28,6 +28,7 @@ btn_login = chrome.find_element(By.XPATH, '//input[@id="login-button"]')
 btn_login.click()
 sleep(1)
 
-
+btn_comprar_item = chrome.find_element(By.XPATH, '//button[@id="add-to-cart-sauce-labs-bike-light"]')
+btn_comprar_item.click()
 
 sleep(10)
